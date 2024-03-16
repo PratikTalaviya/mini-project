@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+/* Hide scrollbar track (the area behind the scrollbar) */
+::-webkit-scrollbar-track {
+  /* display: none; */
+  background-color: #faf8fd;
+}
+
+/* Style the scrollbar thumb (the draggable handle) */
+::-webkit-scrollbar-thumb {
+  background-color: #352f44; /* Change the color of the scrollbar thumb */
+  border-radius: 10px; /* Add border radius to make it slightly rounded */
+}
+
+/* Optional: Style scrollbar buttons (arrows) */
+::-webkit-scrollbar-button {
+  display: none; /* Hide scrollbar buttons */
+}
